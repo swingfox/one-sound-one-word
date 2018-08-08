@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.game.sound.thesis.soundgamev2">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:name=".AppController"
+        android:theme="@style/AppTheme"
+        >
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainMenuActivity"
+            android:windowSoftInputMode="stateHidden"
+            >
+        </activity>
+        <activity
+            android:name=".GameActivity">
+        </activity>
+        <activity
+            android:name=".GameTwoActivity">
+        </activity>
+        <activity
+            android:name=".GameThreeActivity">
+        </activity>
+        <activity
+            android:name=".GameFourActivity">
+        </activity>
+        <activity
+            android:name=".GameFiveActivity">
+        </activity>
+        <activity
+            android:name=".GameSixActivity">
+        </activity>
+        <activity
+            android:name=".InstructionsActivity">
+        </activity>
+        <activity
+            android:name=".StagesActivity">
+        </activity>
+        <activity
+            android:name=".ChallengesActivity">
+        </activity>
+        <activity
+            android:name=".VocabularyActivity">
+        </activity>
+    </application>
+
+</manifest>

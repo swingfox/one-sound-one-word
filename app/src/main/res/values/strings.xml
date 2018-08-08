@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">One Sound One Word</string>
+    <string name="instructions">
+        Game Guide / How to play?\n\n
+        You should wear earphones if you have difficulty in hearing the sounds through your smartphones speaker.\n\n
+        You can also check the vocabulary meanings of the words you answered correctly from the VOCABULARY button in main menu.\n\n
+        How to play?\n\n
+        1.	The audio/sound is played every time you press the SOUND logo (Unlimited), the user needs to give the exact letters that corresponds what the sound is trying to pronounce, and to proceed to other levels they must answer it correctly by filling up the blank box with a correct letters from the choices.\n\n
+        2.	Every time the user answers each level correctly, the user will received 6 coins every time the answer is correct.\n\n
+        3.	Once the user completed all the stages from stage 1 to stage 6. A congratulation dialog box will appear.\n\n
+
+        Other information:\n\n
+        The logo BULB indicate as a HINT, once the user press this logo, it will automatically fill-out the blank box with a correct letter and once the user press this logo it will deduct 5 coins. (Can only be used once each level.)\n\n
+        The logo TRASHBIN deletes the unneeded letters; every press will delete 1 unneeded letter from the choices. (Can be only used 5 times each level.)\n\n
+
+
+    </string>
+
+    <string name="wrongTitle">Wrong!</string>
+    <string name="wrongMessage">Do you want to try another sound?</string>
+    <string name="resetTitle">Reset Game!</string>
+    <string name="resetMessage">Do you want to reset the game?</string>
+</resources>
